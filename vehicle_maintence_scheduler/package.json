@@ -1,5 +1,5 @@
 {
-  "name": "vehicle_maintenance_scheduler",
+  "name": "vehicle_maintence_scheduler",
   "version": "1.0.0",
   "description": "Vehicle maintenance scheduler microservice - Affordmed evaluation",
   "main": "dist/index.js",

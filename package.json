@@ -5,7 +5,7 @@
   "scripts": {
     "auth": "ts-node auth.ts",
     "build": "npm run build --prefix logging_middleware",
-    "build:all": "npm run build --prefix logging_middleware && npm run build --prefix vehicle_maintenance_scheduler && npm run build --prefix notification_app_be"
+    "build:all": "npm run build --prefix logging_middleware && npm run build --prefix vehicle_maintence_scheduler && npm run build --prefix notification_app_be"
   },
   "dependencies": {
     "axios": "^1.6.0"

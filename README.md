@@ -5,7 +5,7 @@
 ```
 /
 ├── logging_middleware/          ← Reusable logging package (Pre-Test)
-├── vehicle_maintenance_scheduler/  ← Backend Q1: Knapsack scheduler
+├── vehicle_maintence_scheduler/  ← Backend Q1: Knapsack scheduler
 ├── notification_app_be/         ← Backend Q2: Notification microservice (Stages 1-6)
 ├── notification_system_design.md   ← Stages 1-6 design document
 ├── auth.ts                      ← One-time registration + auth script
@@ -30,7 +30,7 @@ npm run build
 
 ### Step 3: Run Vehicle Maintenance Scheduler
 ```bash
-cd vehicle_maintenance_scheduler
+cd vehicle_maintence_scheduler
 npm install
 AUTH_TOKEN=your_token npx ts-node src/index.ts
 # Take a screenshot of the output
